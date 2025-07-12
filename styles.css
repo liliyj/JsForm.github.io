@@ -1,0 +1,41 @@
+body{
+    background-color: whitesmoke;
+    color: rgb(29, 28, 28);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+   
+    
+}
+
+.container{
+    background-color: rgb(255, 255, 255);
+    padding: 50px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+#name-input , #age-input{
+    border-style: none;
+    background-color: whitesmoke;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 8px;
+    box-shadow: 0 2px 1px rgba(0, 0, 0, 0.1);
+
+}
+
+
+#submit-btn{
+    border-style: none;
+    background-color: whitesmoke;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin-right: 90px;
+    margin-top: 20px;
+    border-radius: 8px;
+    box-shadow:0 2px 1px rgba(0, 0, 0, 0.1) ;
+}
